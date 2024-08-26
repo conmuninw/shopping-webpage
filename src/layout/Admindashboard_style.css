@@ -1,0 +1,33 @@
+.dashboard-main {
+    height: 100vh;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.sidebar-dashboard {
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+    left: 0;
+    background-color: #fff;
+}
+.menu-dashboard {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    left: 0;
+}
+.menu-dashboard ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 300px;
+    font-size: 1.8rem;
+}
+.menu-dashboard ul li {
+    padding: 10px;
+    cursor: pointer;
+    color: #c1c1c1;
+}
+.menu-dashboard ul li:hover {
+    color: #000;
+}

@@ -1,0 +1,96 @@
+#navbar {
+    /* background: #ffe9cf; */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 13%;
+}
+/* ส่วนต้อนของ Navbar -------------------------------------------- */
+.logo {
+    color: #ad1a3d;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+}
+/* ส่วนกลางของ Navbar -------------------------------------------- */
+.nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    display: none;
+}
+.home, .like, .me {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+.fi-nav {
+    font-size: 20px;
+}
+.like-hover {
+    background: #e1e1e1;
+    color: #b1b1b1;
+    width: 50px;
+    padding: 2px;
+    border-radius: 30px 0 0 30px;
+}
+.home-hover {
+    background: #e1e1e1;
+    color: #b1b1b1;
+    padding: 2px;
+    width: 50px;
+}
+.me-hover {
+    background: #e1e1e1;
+    color: #b1b1b1;
+    padding: 2px;
+    width: 50px;
+    border-radius: 0 30px 30px 0;
+}
+.like-hover:hover{
+    background: #c1c1c1;
+    color: #fff;
+    transition: 0.25s;
+    width: 50px;
+    padding: 2px;
+    border-radius: 30px 0 0 30px;
+}
+.home-hover:hover {
+    background: #c1c1c1;
+    color: #fff;
+    transition: 0.25s;
+    width: 50px;
+}
+.me-hover:hover {
+    background: #c1c1c1;
+    color: #fff;
+    transition: 0.25s;
+    width: 50px;
+    border-radius: 0 30px 30px 0;
+}
+.click-center, .click-text {
+    color: #ad1a3d;
+    background: none;
+    font-weight: bold;
+    width: 50px;
+}
+.cart i {
+    font-size: 20px;
+    color: #ad1a3d;
+}
+/* ส่วนท้ายของ Navbar ------------------------------------- */
+.nav-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.profile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}

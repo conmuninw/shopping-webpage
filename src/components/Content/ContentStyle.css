@@ -1,0 +1,5 @@
+.content-main {
+    max-height: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+}

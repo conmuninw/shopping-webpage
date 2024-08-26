@@ -1,0 +1,26 @@
+#mb-footer {
+    bottom: 0;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    display: none;
+}
+.mb-footer-like, .mb-footer-home, .mb-footer-me {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mb-footer-like i, .mb-footer-home i, .mb-footer-me i {
+    font-size: 14px;
+    cursor: pointer;
+}
+.mb-footer-like span, .mb-footer-home span, .mb-footer-me span {
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mb-footer-click{
+    color: #ad1a3d;
+}

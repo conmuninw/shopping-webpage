@@ -1,0 +1,71 @@
+#sidebar-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.sidebar {
+    margin-top: 30px;
+}
+.sidebar-user-profile {
+    display: flex;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sidebar-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 5px;
+    background: #fff;
+    border: 1px solid #c1c1c1;
+    padding: 1.5px;
+}
+.sidebar-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+.sidebar-phone {
+    font-size: 11px;
+    font-weight: 400;
+    color: #777777;
+}
+.sidebar-profile-box {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+}
+.sidebar-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.icon-sidebar {
+    width: auto;
+    height: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.facebook {
+    margin-top: 10px;
+}
+.facebook, .instragram, .tiktok {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 490;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.credit-name {
+    color: #777777;
+}
